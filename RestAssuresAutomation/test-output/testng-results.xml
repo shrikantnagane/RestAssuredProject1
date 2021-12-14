@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-12T15:09:01 IST" name="Default suite" finished-at="2021-12-12T15:09:10 IST" duration-ms="9155">
+  <suite started-at="2021-12-14T15:54:23 IST" name="Suite" finished-at="2021-12-14T15:54:46 IST" duration-ms="23633">
     <groups>
     </groups>
-    <test started-at="2021-12-12T15:09:01 IST" name="Default test" finished-at="2021-12-12T15:09:10 IST" duration-ms="9155">
+    <test started-at="2021-12-14T15:54:23 IST" name="Test" finished-at="2021-12-14T15:54:46 IST" duration-ms="23633">
       <class name="apitests.Test2GetAndPost">
-        <test-method signature="testGet()[pri:-1, instance:apitests.Test2GetAndPost@2f8dad04]" started-at="2021-12-12T15:09:01 IST" name="testGet" finished-at="2021-12-12T15:09:09 IST" duration-ms="7613" status="PASS">
+        <test-method signature="testGet()[pri:-1, instance:apitests.Test2GetAndPost@649bec2e]" started-at="2021-12-14T15:54:35 IST" name="testGet" finished-at="2021-12-14T15:54:42 IST" duration-ms="7184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method signature="testpost()[pri:1, instance:apitests.Test2GetAndPost@2f8dad04]" started-at="2021-12-12T15:09:09 IST" name="testpost" finished-at="2021-12-12T15:09:10 IST" duration-ms="1456" status="PASS">
+        <test-method signature="testpost()[pri:1, instance:apitests.Test2GetAndPost@649bec2e]" started-at="2021-12-14T15:54:42 IST" name="testpost" finished-at="2021-12-14T15:54:44 IST" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testpost -->
       </class> <!-- apitests.Test2GetAndPost -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="apitests.Test1">
+        <test-method signature="test_1()[pri:0, instance:apitests.Test1@c333c60]" started-at="2021-12-14T15:54:23 IST" name="test_1" finished-at="2021-12-14T15:54:35 IST" duration-ms="12131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+      </class> <!-- apitests.Test1 -->
+      <class name="apitests.Test3PutPatchDelete">
+        <test-method signature="testput()[pri:1, instance:apitests.Test3PutPatchDelete@693fe6c9]" started-at="2021-12-14T15:54:44 IST" name="testput" finished-at="2021-12-14T15:54:45 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testput -->
+        <test-method signature="testpatch()[pri:2, instance:apitests.Test3PutPatchDelete@693fe6c9]" started-at="2021-12-14T15:54:45 IST" name="testpatch" finished-at="2021-12-14T15:54:46 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpatch -->
+        <test-method signature="testDelete()[pri:3, instance:apitests.Test3PutPatchDelete@693fe6c9]" started-at="2021-12-14T15:54:46 IST" name="testDelete" finished-at="2021-12-14T15:54:46 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+      </class> <!-- apitests.Test3PutPatchDelete -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

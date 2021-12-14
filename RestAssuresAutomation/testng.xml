@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="apitests.Test1"/>
+      <class name="apitests.Test2GetAndPost"/>
+      <class name="apitests.Test3PutPatchDelete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
